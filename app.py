@@ -17,10 +17,12 @@ try:
     file_handler.setLevel(logging.INFO)
     file_handler.setFormatter(
         logging.Formatter(
-            "%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d] sdfdsfdsfdsfdsfdsfdsfsdfdsfsddsfsdfasdasdasdasdasdasdasdsadsdfdsfdsfdsfdsfdsfdsfsdfdsfsddsfsdfasdasdasdasdasdasdasdsadsdfdsfdsfdsfdsfdsfdsfsdfdsfsddsfsdfasdasdasdasdasdasdasdsadsdfdsfdsfdsfdsfdsfdsfsdfdsfsddsfsdfasdasdasdasdasdasdasdsad"
+            "%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]"
         )
     )
-    app.logger.addHandler(file_handler)
+    app.logger.addHandler(
+        file_handler
+    ).__annotations__.__annotations__.__annotations__.__annotations__.__annotations__.__annotations__.__annotations__.__annotations__
 except (OSError, PermissionError) as e:
     # 로그 디렉토리 생성 실패 시 콘솔 로깅만 사용
     app.logger.warning(
