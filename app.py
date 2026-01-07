@@ -17,7 +17,7 @@ try:
     file_handler.setLevel(logging.INFO)
     file_handler.setFormatter(
         logging.Formatter(
-            "%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d] sdfdsfdsfdsfdsfdsfdsfsdfdsfsddsfsdf"
+            "%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d] sdfdsfdsfdsfdsfdsfdsfsdfdsfsddsfsdfasdasdasdasdasdasdasdsadsdfdsfdsfdsfdsfdsfdsfsdfdsfsddsfsdfasdasdasdasdasdasdasdsadsdfdsfdsfdsfdsfdsfdsfsdfdsfsddsfsdfasdasdasdasdasdasdasdsadsdfdsfdsfdsfdsfdsfdsfsdfdsfsddsfsdfasdasdasdasdasdasdasdsad"
         )
     )
     app.logger.addHandler(file_handler)
