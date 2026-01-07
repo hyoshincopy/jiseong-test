@@ -3,7 +3,7 @@
 line-length = 88
 
 # Python 버전 타겟팅
-target-version = ['py39', 'py310', 'py311']
+target-version = ['py39', 'py310', 'py313']
 
 # 포맷팅할 파일 패턴
 include = '\.pyi?$'
